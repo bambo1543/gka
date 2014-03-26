@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GKA100</string>
+
+    <string name="gsm">GSM</string>
+
+    <string name="phoneNumber">Telefonnummer</string>
+    <string name="phoneNumberSummary">Die Telefonnummer der Alarmanlage</string>
+    <string name="phoneNumberDialogTitle">Telefonnummer</string>
+    <string name="phoneNumberDialogMessage">Die Telefonnummer der Alarmanlage</string>
+
+    <string name="phonePin">Pin</string>
+    <string name="phonePinSummary">Die Pin der Alarmanlage</string>
+    <string name="phonePinDialogTitle">Pin</string>
+    <string name="phonePinDialogMessage">Die Pin der Alarmanlage</string>
+
+    <string name="configuration">Konfiguration</string>
+    <string name="time">Uhrzeit</string>
+    <string name="timeSummary"/>
+    <string name="timeDialogTitle">Uhrzeit</string>
+    <string name="timeDialogMessage"/>
+    <string name="timeDate">Datum und Uhrzeit</string>
+    <string name="timeDateSummary"/>
+    <string name="timeDateDialogTitle">Datum und Uhrzeit</string>
+    <string name="timeDateDialogMessage"/>
+
+</resources>

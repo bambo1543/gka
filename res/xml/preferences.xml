@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen android:title="@string/gsm" android:key="gsm">
+        <EditTextPreference android:key="phoneNumber"
+                android:title="@string/phoneNumber"
+                android:summary="@string/phoneNumberSummary"
+                android:dialogTitle="@string/phoneNumberDialogTitle"
+                android:dialogMessage="@string/phoneNumberDialogMessage"
+                android:defaultValue="0"/>
+
+        <EditTextPreference android:key="phonePin"
+                android:title="@string/phonePin"
+                android:summary="@string/phonePinSummary"
+                android:dialogTitle="@string/phonePinDialogTitle"
+                android:dialogMessage="@string/phonePinDialogMessage"
+                android:defaultValue="1513"/>
+
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="@string/configuration" android:key="configuration">
+        <EditTextPreference android:key="time"
+                android:title="@string/time"
+                android:summary="@string/timeSummary"
+                android:dialogTitle="@string/timeDialogTitle"
+                android:dialogMessage="@string/timeDialogMessage"
+                android:defaultValue=""/>
+
+        <EditTextPreference android:key="timeDate"
+                android:title="@string/timeDate"
+                android:summary="@string/timeDateSummary"
+                android:dialogTitle="@string/timeDateDialogTitle"
+                android:dialogMessage="@string/timeDateDialogMessage"
+                android:defaultValue=""
+                />
+
+    </PreferenceScreen>
+
+
+</PreferenceScreen>
